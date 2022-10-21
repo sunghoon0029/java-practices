@@ -8,7 +8,6 @@
 	<artifactId>chapter01</artifactId>
 	
 	<build>
-		<finalName>javastudy</finalName>
-	</build>
-	
+		<finalName>chapter01</finalName>
+	</build>	
 </project>
