@@ -14,7 +14,12 @@ public class SongTest {
 
 		song.show();
 		
-//		System.out.println(song.show());
+		Song song2 = new Song("Love Dive", "IVE", "Love Dive", "Jamie Parker외 3명", 2022, "1번 track");
+		song2.show();
+
+		Song song3 = new Song("사건의 지평선", "윤하");
+		song3.show();
+		
 	}
 
 }
