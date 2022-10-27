@@ -8,23 +8,18 @@ public class Prob3 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.print("수를 입력하시오 : ");
-		int num = scanner.nextInt();
-		
-		
-		int result = 0;
-		if (num % 2 != 0) {
-			for(int i = 1; i <= num; i = i+2) {
-				result += i; 
-			}
-			System.out.println(result);
-		}else {
-			for(int j = 0; j <= num; j = j+2) {
-				result += j; 
-			}
-			System.out.println(result);
-		}
+		while (true) {
+			System.out.print("수를 입력하시오 : ");
+			int num = scanner.nextInt();
 
-		scanner.close();
+			int result = 0;
+
+			for (int i = 0; i <= num; i++) {
+				if (num % 2 == 0 && i % 2 == 0 || num % 2 != 0 && i % 2 != 0) {
+					result += i;
+				}
+			}
+			scanner.close();
+		}
 	}
 }

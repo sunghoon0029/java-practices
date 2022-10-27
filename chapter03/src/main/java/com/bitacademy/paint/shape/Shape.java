@@ -1,6 +1,8 @@
-package paint;
+package com.bitacademy.paint.shape;
 
-public abstract class Shape {
+import com.bitacademy.paint.i.Drawable;
+
+public abstract class Shape implements Drawable {
 	private String lineColor;
 	private String fillColor;
 	

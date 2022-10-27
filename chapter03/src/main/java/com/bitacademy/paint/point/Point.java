@@ -1,6 +1,8 @@
-package paint;
+package com.bitacademy.paint.point;
 
-public class Point {
+import com.bitacademy.paint.i.Drawable;
+
+public class Point implements Drawable{
 	private int x;
 	private int y;
 
@@ -39,6 +41,12 @@ public class Point {
 	
 	public void show() {
 			System.out.println("점(x=" + x + ", y=" + y + ")를 그렸습니다.");
+	}
+
+	@Override
+	public void draw() {
+		show();
+		
 	}
 
 //	public void disappear() {
