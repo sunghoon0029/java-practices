@@ -7,7 +7,7 @@ import java.util.Vector;
 public class VectorTest02 {
 	public static void main(String[] args) {
 		List<String> list = new Vector<>();
-
+		
 		list.add("둘리");
 		list.add("마이콜");
 		list.add("도우너");
