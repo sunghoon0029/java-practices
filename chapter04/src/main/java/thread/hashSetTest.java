@@ -15,10 +15,9 @@ public class hashSetTest {
 		s.add("마이콜");
 		s.add("또치");
 		s.add(s1);
-		s.add(s2);
 
 		System.out.println(s.size());
-		System.out.println(s.contains("둘리"));
+		System.out.println(s.contains(s2));
 		
 		// 순회
 		for(String str : s) {
