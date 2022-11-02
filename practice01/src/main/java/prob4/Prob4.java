@@ -13,7 +13,7 @@ public class Prob4 {
 		int length = text.length();
 		for(int i = 0; i < text.length(); i++) {
 			for(int j = 0; j <= i; j++) {
-				System.out.println(text.charAt(j));
+				System.out.print(text.charAt(j));
 			}
 			System.out.println("");
 		}
