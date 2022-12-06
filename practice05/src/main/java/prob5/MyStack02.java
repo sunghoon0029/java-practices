@@ -2,7 +2,7 @@ package prob5;
 
 public class MyStack02 {
 	private int top;
-	private String[] buffer;
+	private Object[] buffer;
 
 	public MyStack02(int capacity) {
 		top = -1;

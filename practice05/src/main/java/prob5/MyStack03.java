@@ -10,7 +10,7 @@ public class MyStack03<T> {
 		buffer = (T[])new Object[capacity];
 	}
 
-	public void push(Object(T o) {
+	public void push(T o) {
 		if (top == buffer.length - 1) {
 			resize();
 		}
@@ -33,6 +33,7 @@ public class MyStack03<T> {
 		return top == -1;
 	}
 
+	@SuppressWarnings("unchecked")
 	private void resize() {
 		T[] temp = (T[])new Object[buffer.length * 2];
 		for (int i = 0; i <= top; i++) {
